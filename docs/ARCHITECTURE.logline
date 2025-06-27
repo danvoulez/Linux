@@ -1,2 +1,10 @@
-- type: text
-  content: "Architecture placeholder"
+- type: architecture
+  content: "LogLineOS skeleton"
+  children:
+    - type: axiom
+      id: state_log
+      content: "All state is log"
+    - type: axiom
+      id: behavior_contract
+      content: "Behavior is contract"
+
