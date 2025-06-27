@@ -4,4 +4,9 @@
     - type: rule
       when: proposal.submitted
       then: vote.start
-
+    - type: rule
+      when: vote.passed
+      then: merge.proposal
+  treasury:
+    - type: asset
+      id: token

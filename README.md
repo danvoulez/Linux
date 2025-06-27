@@ -1,3 +1,5 @@
 # LogLineOS
 
-This repository contains a prototype implementation of LogLineOS, an experimental operating system based on the six axioms of LogLine. All components are placeholders and do not represent a functional OS.
+This repository contains a prototype implementation of LogLineOS, an experimental operating system built around the six axioms of LogLine. The design of each component is described in LogLine files located under `docs/` and `governance/`.
+
+All artifacts are placeholders intended only for demonstration.

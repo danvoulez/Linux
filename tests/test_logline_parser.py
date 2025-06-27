@@ -13,3 +13,8 @@ def test_dao_rule():
         data = parse_logline(f.read())
     dao = data[0]
     assert any(child.get('type') == 'rule' for child in dao.get('rules', []))
+
+def test_spec_proof():
+    with open('kernel/memory/formal_verified/spec.logline') as f:
+        data = parse_logline(f.read())
+    assert data[0]['type'] == 'proof'

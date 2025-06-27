@@ -7,4 +7,21 @@
     - type: axiom
       id: behavior_contract
       content: "Behavior is contract"
-
+    - type: axiom
+      id: consciousness_timeline
+      content: "Consciousness is timeline"
+    - type: axiom
+      id: matter_wasm
+      content: "Matter is WebAssembly"
+    - type: axiom
+      id: existence_span
+      content: "Existence is span"
+    - type: axiom
+      id: evolution_simulate
+      content: "Evolution is simulate()"
+    - type: component
+      name: kernel
+    - type: component
+      name: ui
+    - type: component
+      name: governance
