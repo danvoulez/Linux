@@ -18,3 +18,10 @@ def test_spec_proof():
     with open('kernel/memory/formal_verified/spec.logline') as f:
         data = parse_logline(f.read())
     assert data[0]['type'] == 'proof'
+
+def test_schedule_iterations():
+    with open('docs/DELIVERY_SCHEDULE.logline') as f:
+        data = parse_logline(f.read())
+    schedule = data[0]
+    assert schedule['type'] == 'schedule'
+    assert len(schedule.get('iterations', [])) == 5
