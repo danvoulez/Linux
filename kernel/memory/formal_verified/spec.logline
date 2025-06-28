@@ -1,0 +1,5 @@
+- type: proof
+  theorem: safe_alloc
+  steps:
+    - type: lemma
+      content: "no overflow"

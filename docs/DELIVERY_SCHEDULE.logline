@@ -1,0 +1,38 @@
+- type: schedule
+  overview: "Grandes entregas do LogLineOS"
+  iterations:
+    - type: milestone
+      id: iter1
+      deliverables:
+        - type: text
+          content: "Kernel WASM bootável via PXE"
+        - type: text
+          content: "DAO operacional inicial"
+    - type: milestone
+      id: iter2
+      deliverables:
+        - type: text
+          content: "Verificação formal do memory manager"
+        - type: text
+          content: "Telemetry span tracer"
+    - type: milestone
+      id: iter3
+      deliverables:
+        - type: text
+          content: "WCAG checker em CI"
+        - type: text
+          content: "Gerador de SBOM assinado"
+    - type: milestone
+      id: iter4
+      deliverables:
+        - type: text
+          content: "Políticas de economia de energia"
+        - type: text
+          content: "Mecanismo de backup/restore"
+    - type: milestone
+      id: iter5
+      deliverables:
+        - type: text
+          content: "Interface CLI completa"
+        - type: text
+          content: "Integrações de IDE"
